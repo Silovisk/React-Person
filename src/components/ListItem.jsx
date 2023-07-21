@@ -4,10 +4,10 @@ export default function ListItem(props) {
       <li>
         <a
           target="_blank"
-          rel="noreferer"
+          rel="noreferrer"
           href={props.url}>
           <img
-            src={props.Imageurl}
+            src={props.imageurl}
             alt={props.alt}
           />
         </a>
